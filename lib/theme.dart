@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 final ThemeData appTheme = ThemeData(
   useMaterial3: true,
-  colorScheme: ColorScheme.fromSeed(seedColor: Colors.white),
+  colorScheme: ColorScheme.fromSeed(seedColor: Colors.pink),
   textTheme: const TextTheme(
     headlineLarge: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
     headlineMedium: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
@@ -10,7 +10,7 @@ final ThemeData appTheme = ThemeData(
   ),
   elevatedButtonTheme: ElevatedButtonThemeData(
     style: ElevatedButton.styleFrom(
-      backgroundColor: Colors.white,
+      backgroundColor: Colors.pink,
       foregroundColor: Colors.white,
       textStyle: const TextStyle(fontSize: 16),
       shape: RoundedRectangleBorder(
@@ -23,14 +23,14 @@ final ThemeData appTheme = ThemeData(
       borderRadius: BorderRadius.all(Radius.circular(8)),
     ),
     focusedBorder: OutlineInputBorder(
-      borderSide: BorderSide(color: Colors.white, width: 2),
+      borderSide: BorderSide(color: Colors.grey, width: 2),
     ),
-    labelStyle: TextStyle(color: Colors.black), // Label text color
-    hintStyle: TextStyle(color: Colors.black), // Hint text color
+    labelStyle: TextStyle(color: Colors.black),
+    hintStyle: TextStyle(color: Colors.black),
     enabledBorder: OutlineInputBorder(
-      borderSide: BorderSide(color: Colors.black), // Border color when enabled
+      borderSide: BorderSide(color: Colors.black),
     ),
-    floatingLabelStyle: TextStyle(color: Colors.black), // Label color when focused
+    floatingLabelStyle: TextStyle(color: Colors.black),
   ),
   cardTheme: const CardTheme(
     margin: EdgeInsets.all(8),
